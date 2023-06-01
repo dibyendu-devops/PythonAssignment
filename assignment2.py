@@ -1,6 +1,5 @@
 list = [ 2,3,4,55,56,78,75,69,66,101,100 ]
 even_count, odd_count = 0, 0
-# enhanced for loop
 for num in list:
    #even numbers
    if num % 2 == 0:
