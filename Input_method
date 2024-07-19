@@ -13,3 +13,10 @@ result = eval(input('enter a expression'))
 print(result)
 
 #here eval is the funtion on python
+
+
+##Assignent 
+## write a code to find the cube of the number. and take input from the user using imnput()
+
+import math
+x 
