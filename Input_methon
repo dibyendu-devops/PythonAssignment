@@ -1,0 +1,15 @@
+x = int(input("Enter your choice"))
+y = int(input("Enter your choice"))
+z = x + y
+print(z)
+
+ch = input("enter the char")
+print(ch)
+
+char = input("enter the char")
+print(char[0:4])
+
+result = eval(input('enter a expression'))
+print(result)
+
+#here eval is the funtion on python
