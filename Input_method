@@ -19,4 +19,6 @@ print(result)
 ## write a code to find the cube of the number. and take input from the user using imnput()
 
 import math
-x 
+x= int(input("enter a number"))
+y = math.pow(x,3)
+print(y)
