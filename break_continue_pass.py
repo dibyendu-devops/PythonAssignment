@@ -39,3 +39,28 @@ for i in range(1,101):
         print(i)
 
 print("Bye")
+
+
+
+# wrtie a code to print first 50 fibonacci series
+a = 1
+b = 1
+for i in range(50):
+  print(a)
+  print(b)
+  a = a + b
+  b = b + a
+
+# write a code to check if a given number is prime or not
+x=int(input("Enter a no."))
+s=0
+i=1
+while(i<=x):
+    if x%i==0:
+        s+=1
+    i+=1
+
+if s==2:
+    print("Prime number")
+else:
+    print("Not prime")
