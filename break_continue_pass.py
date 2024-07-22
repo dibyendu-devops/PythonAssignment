@@ -1,5 +1,41 @@
-                                MyCode.py
 --------------------------------------------------------------------------------
+x = int(input("How many candies do you want"))
+i = 1
+while i <=x:
+    print("Candy")
+    i+=1
+
+
+av=5
+x = int(input("How many candies do you want"))
+i = 1
+while i <=x:
+    
+    if i>av:
+        print("Out Of stock, try next tym ")
+        break
+    print("Candy")
+    i+=1
+
+for i in range(1,100):
+    if(i%3 ==0):
+        continue
+    print(i)
+
+
+for i in range(1,100):
+    if(i%3 ==0 or i%5 == 0):
+        continue
+    print(i)
+
+
+for i in range(1,100):
+    if i % 2==0:
+        pass
+    else:
+        print(i)
+      
+
 
 
 # av = 5
